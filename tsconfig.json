@@ -1,0 +1,25 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+      "outDir": "./dist",
+      "sourceMap": true,
+      "declaration": false,
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "module": "commonjs",
+      "target": "es2017",
+      "typeRoots": [
+        "node_modules/@types",
+      ],
+      "types": [
+        "@types/mocha",
+      ],
+      "lib": [
+        "es2017",
+        "dom"
+      ]
+    }
+}
